@@ -1,0 +1,86 @@
+:root {
+  --black: #171321;
+  --dkblue: #2198a6;
+  --plum: #d97904;
+  --hotmag: #f29f05;
+  --magenta: #f2b705;
+  --aqua: #2abfbf;
+  --white: #f7f8fa;
+  --font-size: 1.3rem;
+  --mono: "Oxygen mono", monospace;
+  --sans: Oxygen, sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* generic styles for the page */
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: var(--sans);
+  color: black;
+  border: 0;
+}
+
+nav {
+  background-color: black;
+  height: 150px;
+  max-width: 100%;
+}
+
+ul {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+li {
+  list-style-type: none;
+}
+
+.logo {
+  width: 3vw;
+  height: 100%;
+  border: solid 3px whitesmoke;
+  box-shadow: 5px 5px rgba(235, 210, 210, 0.8);
+  border-radius: 25%;
+}
+
+.logo-box {
+  display: inline-block;
+}
+
+.galery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcoming-text {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.galery-images {
+  display: flex;
+}
+
+.galery-flex-images {
+  background-color: rgb(199, 228, 142);
+  height: 100vh;
+  width: 100%;
+}

@@ -1,0 +1,1 @@
+let siemka = "czesc";
