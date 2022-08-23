@@ -75,12 +75,13 @@ li {
   align-items: center;
 }
 
-.galery-images {
-  display: flex;
-}
-
-.galery-flex-images {
+.galery-flex-img {
+  margin: 0px;
+  padding: 0px;
   background-color: rgb(199, 228, 142);
   height: 100vh;
   width: 100%;
+  display: flex;
+  align-content: center;
+  flex-flow: row wrap;
 }
